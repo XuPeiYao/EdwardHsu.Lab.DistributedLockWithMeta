@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Lab.DistributedLockWithLogging", "EdwardHsu.Lab.DistributedLockWithLogging\EdwardHsu.Lab.DistributedLockWithLogging.csproj", "{1881AF7C-55A5-4312-A245-5D1C4797CB97}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{21459D6A-1885-4229-A4F2-F91F451D0BD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1881AF7C-55A5-4312-A245-5D1C4797CB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1881AF7C-55A5-4312-A245-5D1C4797CB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1881AF7C-55A5-4312-A245-5D1C4797CB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1881AF7C-55A5-4312-A245-5D1C4797CB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21459D6A-1885-4229-A4F2-F91F451D0BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21459D6A-1885-4229-A4F2-F91F451D0BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21459D6A-1885-4229-A4F2-F91F451D0BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21459D6A-1885-4229-A4F2-F91F451D0BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58463DC0-163E-466A-9203-45C90C366918}
+	EndGlobalSection
+EndGlobal

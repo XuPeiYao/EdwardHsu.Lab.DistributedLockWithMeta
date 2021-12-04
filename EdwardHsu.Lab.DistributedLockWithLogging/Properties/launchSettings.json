@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EdwardHsu.Lab.DistributedLockWithLogging": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
