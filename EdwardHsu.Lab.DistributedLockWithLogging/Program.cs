@@ -37,6 +37,14 @@ namespace EdwardHsu.Lab.DistributedLockWithLogging
             }
 
             await Task.Delay(TimeSpan.FromSeconds(10));
+            _lock2 = dlock2.TryAcquireWithMeta(TimeSpan.FromSeconds(10));
+
+            // 當無法取得lock
+            if (_lock2.handle != null)
+            {
+                // Get lock
+                Console.WriteLine($"OK");
+            }
         }
     }
 }
